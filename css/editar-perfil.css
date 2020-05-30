@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+textarea{
+    
+}
+.btn-red{
+    color: #fff;
+    background:#934834;
+}
+
+.btn-red:hover{
+    color: #000;
+}
+
+#img-logo{
+    height: 50px;
+    width: 50px;
+}
+
+

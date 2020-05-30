@@ -1,0 +1,47 @@
+#imagen-perfil{
+    margin-top: 10px;
+    border-radius: 10%;
+}
+.btn-red{
+    color: #fff;
+    background:#934834;
+}
+
+.btn-red:hover{
+    color: #000;
+}
+
+#img-logo{
+    height: 50px;
+    width: 50px;
+}
+
+.divFondo{
+    border-style: solid;
+    border-color: lightgray;
+    background-color: #f1f3f6;
+}
+
+
+footer.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem
+}
+
+footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #934834;
+    -webkit-transition: background-color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
+}
+
+footer.footer .social-link:hover {
+    background-color: #252525;
+    text-decoration: none
+}

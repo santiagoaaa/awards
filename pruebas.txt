@@ -1,0 +1,55 @@
+pruebas post concursos
+[
+    {
+        "concurso": "Postman invierno",
+        "descripcion": "Demuestra lo genial que se ve postman",
+        "descripcion_breve": "Postman en corto",
+        "fecha_inicio": "2018-12-01",
+        "fecha_cierre": "2018-12-30",
+        "id_usuario": "15"
+    }
+]
+
+prueba put concursos
+[
+    {
+        "concurso": "Postman invierno 2018",
+        "descripcion": "Demuestra lo genial que se ve postman en invierno",
+        "descripcion_breve": "Postman en corto y facil",
+        "fecha_inicio": "2018-11-01",
+        "fecha_cierre": "2018-12-30"
+    }
+]
+
+prueba put voto
+[
+    {
+        "id_foto": "24",
+        "id_concurso": "15",
+        "id_usuario":"25"
+    }
+]
+prubeba delete voto
+http://localhost:8080/awards/ws/votos/?id_voto=43&id_foto=24
+
+
+
+
+airplane
+post
+[
+    {
+        "email": "y los billetes?",
+        "contrasena": "admin",
+        "roles": {
+                    "id_rol":1
+                }
+    }
+]
+put
+[
+    {
+        "email": "y los billetes? x2",
+        "contrasena": "admin"
+    }
+]

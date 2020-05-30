@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+#img-logo{
+    height: 50px;
+    width: 50px;
+}
+
+#img-flecha{
+    height: 50px;
+    width: 50px;
+    margin-left: 40%;
+    
+}
+
+/**/
+
+.btn-red{
+    color: #fff;
+    background:#934834;
+}
+
+.btn-red:hover{
+    color: #000;
+}
+
+.masthead {
+    color: #fff;
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .1))), url("../imagenes/fondo4.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url("../imagenes/fondo4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead h2 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width:992px) {
+    .masthead {
+        height: 100vh
+    }
+    .masthead h2 {
+        font-size: 5.5rem
+    }
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    -webkit-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px);
+    background: #1d809f;
+    border-left: 1px solid rgba(255, 255, 255, .1)
+}
+
+.text-secondary {
+    color: #ecb807 !important
+}
+
+
+
+footer.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem
+}
+
+footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #934834;
+    -webkit-transition: background-color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
+}
+
+footer.footer .social-link:hover {
+    background-color: #252525;
+    text-decoration: none
+}
+
+
+
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#img-logo{
+    height: 50px;
+    width: 50px;
+}
+
+

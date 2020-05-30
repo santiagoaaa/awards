@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#img-logo {
+    height: 50px;
+    width: 50px;
+}
+
+/**/
+
+.btn-red {
+    color: #fff;
+    background: #934834;
+}
+
+.btn-red:hover {
+    color: #000;
+}
+
+.masthead {
+    color: #fff;
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .1))), url("../imagenes/concurso1.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url("../imagenes/concurso1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.masthead h3 {}
+
+@media (min-width:992px) {
+    .masthead {
+        height: 100vh
+    }
+
+    .masthead h1 {
+        font-size: 5.5rem
+    }
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    z-index: 2;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    -webkit-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px);
+    background: #1d809f;
+    border-left: 1px solid rgba(255, 255, 255, .1)
+}
+
+.text-secondary {
+    color: #ecb807 !important
+}
+
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem
+}
+
+.portfolio-item .caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 37, 41, .2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1
+}
+
+.portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 2rem 2rem
+}
+
+.portfolio-item .caption .caption-content h2 {
+    font-size: 2rem;
+    text-transform: uppercase
+}
+
+.portfolio-item .caption .caption-content p {
+    font-weight: 300;
+    font-size: 1.3rem
+}
+
+@media (min-width:992px) {
+    .portfolio-item {
+        max-width: none;
+        margin: 0
+    }
+
+    .portfolio-item .caption {
+        -webkit-transition: -webkit-clip-path .25s ease-out, background-color .7s;
+        -webkit-clip-path: inset(0);
+        clip-path: inset(0)
+    }
+
+    .portfolio-item .caption .caption-content {
+        -webkit-transition: opacity .25s;
+        transition: opacity .25s;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 5rem
+    }
+
+    .portfolio-item img {
+        -webkit-transition: -webkit-clip-path .25s ease-out;
+        -webkit-clip-path: inset(-1px);
+        clip-path: inset(-1px)
+    }
+
+    .portfolio-item:hover img {
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem)
+    }
+
+    .portfolio-item:hover .caption {
+        background-color: rgba(147, 72, 52, .9);
+        -webkit-clip-path: inset(2rem);
+        clip-path: inset(2rem)
+    }
+}
+
+footer.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem
+}
+
+footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #934834;
+    -webkit-transition: background-color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1)
+}
+
+footer.footer .social-link:hover {
+    background-color: #252525;
+    text-decoration: none
+}
+
+
